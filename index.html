@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Icon Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-card">
+        <h1>🌦️ Weather Explorer</h1>
+        <p class="subtitle">Choose a condition to explore the weather</p>
+
+        <label for="weatherSelect">Select Weather Condition</label>
+        <select id="weatherSelect">
+            <option value="">-- Choose Weather --</option>
+            <option value="sunny">Sunny</option>
+            <option value="cloudy">Cloudy</option>
+            <option value="rainy">Rainy</option>
+            <option value="stormy">Stormy</option>
+            <option value="snowy">Snowy</option>
+            <option value="foggy">Foggy</option>
+        </select>
+
+        <div id="weatherDisplay" class="weather-display">
+            <div id="weatherIcon" class="weather-icon">🌍</div>
+            <h2 id="weatherTitle">Welcome!</h2>
+            <p id="weatherDescription">Select a weather condition above.</p>
+        </div>
+
+        <p class="footer">Weather Explorer | Static Data Project</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
